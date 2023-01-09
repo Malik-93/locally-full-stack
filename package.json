@@ -4,12 +4,11 @@
   "description": "Full stack events booking app",
   "engines": {
     "node": "18.10.0",
-    "yarn": "1.22.19",
     "npm": "8.19.2"
   },
   "scripts": {
     "start": "cd backend/ && node server.js",
-    "build": "cd backend/ && yarn install && yarn run build && cd ../"
+    "build": "cd backend/ && npm install && npm run build && cd ../"
   },
   "cacheDirectories": [
     "backend/node_modules",
