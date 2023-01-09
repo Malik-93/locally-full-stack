@@ -3,7 +3,9 @@
   "version": "3.0.0",
   "description": "Full stack events booking app",
   "engines": {
-    "node": "18.x"
+    "node": "18.10.0",
+    "yarn": "1.22.19",
+    "npm": "8.19.2"
   },
   "scripts": {
     "start": "cd backend/ && node server.js",
