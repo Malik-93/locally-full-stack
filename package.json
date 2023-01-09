@@ -8,7 +8,7 @@
     "npm": "8.19.2"
   },
   "scripts": {
-    "start": "cd frontend/ && yarn run build && cd ../ && cd backend/ && node server.js"
+    "start": "cd backend/ && node server.js"
   },
   "cacheDirectories": [
     "backend/node_modules",
