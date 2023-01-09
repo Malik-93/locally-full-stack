@@ -1,13 +1,13 @@
 {
-  "name": "events-api-oncel",
+  "name": "locally-events",
   "version": "3.0.0",
-  "description": "Demo app with node js api and react frontend",
+  "description": "Full stack events booking app",
   "engines": {
     "node": "18.x"
   },
   "scripts": {
     "start": "cd backend/ && node server.js",
-    "build": "cd frontend/ && npm install && npm run build && cd ../backend/ && npm install"
+    "build": "cd backend/ && yarn install && yarn run build && cd ../"
   },
   "cacheDirectories": [
     "backend/node_modules",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mars/heroku-cra-node.git"
+    "url": "https://github.com/Malik-93/locally-full-stack.git"
   },
   "keywords": [
     "node",
